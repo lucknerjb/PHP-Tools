@@ -1,0 +1,16 @@
+DB-Wrapper is a database wrapper built to reduce the amount of repetitive mysql calls made.
+
+It does not yet procide method chaining and other cool features but it does facilitate writing queries:
+
+Example:
+
+//SELECT
+
+$conn = new DatabaseWrapper();
+$result = $conn->query("SELECT * FROM clients WHERE client_id='{$client_id}'");
+$row = $conn->fetchArray($result);
+
+//INSERT
+$conn = new DatabaseWrapper();
+$conn->iquery("INSERT INTO clients (client_id, client_name) VALUES ('1000', 'Test Name')");
+$lastID = $conn->lastID();
