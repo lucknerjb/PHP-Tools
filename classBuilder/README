@@ -1,0 +1,125 @@
+ClasBuilder is a class used to build a class skeleton.
+
+For those who do not use a framework and are tired of writing getters and setters and class variables all the time, use this tool to get up and running quickly.
+
+Once you have generated the skeleton, you can copy it all and paste it in your class file or simply grab what you need. For the time being, all functions are made public. Private and static support to come.
+
+ONLINE DEMO COMING SOON
+
++++ EXAMPLE +++
+
+Input: 
+
+Class Name => UserProfile
+
+Getters and Setters => username,first_name,last_name,email
+
+OUTPUT:
+
+==================================== Complete Class Code ======================================
+class UserProfile {
+
+    //Class variables
+    var $username;
+    var $first_name;
+    var $last_name;
+    var $email;
+
+    ------------------------------- GETTER FUNCTIONS -------------------------
+
+    //Return the username value
+    function getUsername(){
+        return $this->username;
+    }
+
+    //Return the first_name value
+    function getFirst_name(){
+        return $this->first_name;
+    }
+
+    //Return the last_name value
+    function getLast_name(){
+        return $this->last_name;
+    }
+
+    //Return the email value
+    function getEmail(){
+        return $this->email;
+    }
+
+    ------------------------------- SETTER FUNCTIONS -------------------------
+
+    //Set the username value
+    function setUsername($value){
+        $this->username = $value;
+    }
+
+    //Set the first_name value
+    function setFirst_name($value){
+        $this->first_name = $value;
+    }
+
+    //Set the last_name value
+    function setLast_name($value){
+        $this->last_name = $value;
+    }
+
+    //Set the email value
+    function setEmail($value){
+        $this->email = $value;
+    }
+
+} //End UserProfile class
+
+
+======================= Variables =============================
+    var $username;
+    var $first_name;
+    var $last_name;
+    var $email;
+
+
+========================= Getters ==============================
+
+    //Return the username value
+    function getUsername(){
+        return $this->username;
+    }
+
+    //Return the first_name value
+    function getFirst_name(){
+        return $this->first_name;
+    }
+
+    //Return the last_name value
+    function getLast_name(){
+        return $this->last_name;
+    }
+
+    //Return the email value
+    function getEmail(){
+        return $this->email;
+    }
+
+
+==================== Setters =============================
+
+    //Set the username value
+    function setUsername($value){
+        $this->username = $value;
+    }
+
+    //Set the first_name value
+    function setFirst_name($value){
+        $this->first_name = $value;
+    }
+
+    //Set the last_name value
+    function setLast_name($value){
+        $this->last_name = $value;
+    }
+
+    //Set the email value
+    function setEmail($value){
+        $this->email = $value;
+    }

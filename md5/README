@@ -1,0 +1,16 @@
+Ever had to manually change a password in a database but with no access to phpmyadmin?
+
+Ever had to compare the password in the database to one that you have in mind but don't want to write code to do so?
+
+Try the MD5 tool.
+
+Example output:
+
+
+
+
+Your clear text password : test
+
+Your MD5 equivalent : 098f6bcd4621d373cade4e832627b4f6
+
+Copy, paste, and enjoy! 
