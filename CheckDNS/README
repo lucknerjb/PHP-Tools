@@ -1,0 +1,3 @@
+FUNCTION: myCheckDNSRR
+
+Windows servers do not support PHP's checkdnsrr function.....but this function is a great workaround for that
