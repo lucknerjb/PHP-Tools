@@ -1,0 +1,1 @@
+decode.php is a script which works on its own. It's purpose is to take an encoded URL string in the single input field and, POSTed back to itself, it will decode the string and print out the human readable, browser understandable version of the URL.
