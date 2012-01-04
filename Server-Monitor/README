@@ -1,0 +1,3 @@
+monitor.php is a script which monitors a specific domain name. It cane be executed via cron to check that the domain is always up and send an alert email if the domain is either down or the string that the script is supposed to find on the queried page is not found.
+
+This is by no means a production type solution but it works well as an example of how to setup your own monitoring system. Use it as a base for your own system
